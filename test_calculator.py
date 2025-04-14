@@ -10,9 +10,9 @@ class TestCalculator(unittest.TestCase):
         pass
 
     def test_subtract(self): # 3 assertions
-        self.assertEqual(subtract(3, 2),1)
-        self.assertEqual(subtract(5, 3), 2)
-        self.assertAlmostEqual(subtract(6.7, 2.7), 4.0)
+        self.assertEqual(sub(3, 2),1)
+        self.assertEqual(sub(5, 3), 2)
+        self.assertAlmostEqual(sub(6.7, 2.7), 4.0)
         pass
     ##########################
 
@@ -28,7 +28,7 @@ class TestCalculator(unittest.TestCase):
     def test_divide_by_zero(self): # 1 assertion
         # call division function inside, example:
         with self.assertRaises(ZeroDivisionError):
-            divide(0, 10)
+            div(0, 10)
         pass
 
     def test_logarithm(self): # 3 assertions
