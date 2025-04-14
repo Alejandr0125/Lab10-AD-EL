@@ -5,39 +5,38 @@ calculator.py
 One function per operation, in order.
 """
 import math
-# First example
 
+def square_root(a):
+    if a < 0:
+        raise ValueError
+    return math.sqrt(a)# raise ValueError if a < 0
+
+def hypotenuse(a, b):
+    return math.hypot(a, b) # can have negative nums
 
 def add(a, b):
     return a + b
+
+def mul(a, b):
+    return a * b
+def div(a, b):
+    if a==0:
+        raise ZeroDivisionError
+    return b / a
+
+def exp(a, b):
+    return a**b
+
+
 
 
 def subtract(a, b):
     return a - b
 
-def mul(a, b):
-    return a * b
-
-
-def div(a, b):
-    if a == 0:
-        raise ZeroDivisionError
-
-
-
 def logarithm(a, b):
-    return math.log(a,b)
-
-def exp(a, b):
-    return a**b
-
-def square_root(a): # raise ValueError if a < 0
-    if a < 0:
+    if b <= 0 or a <= 1:
         raise ValueError
-    return math.sqrt(a)
-def hypotenuse(a, b):  # can have negative nums
-    return math.hypot(a,b)
-
+    return math.log(b,a)# use math library/raise ValueError
 
 
 
