@@ -1,8 +1,10 @@
-import unittest
-from calculator import *
-###https://github.com/Alejandr0125/Lab10-AD-EL.git
+#https://github.com/Alejandr0125/Lab10-AD-EL.git
 #Partner 1: Alejandro Delatorre
 #Partner 2: Ethan Laue
+
+import unittest
+from calculator import *
+
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
