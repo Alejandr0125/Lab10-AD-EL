@@ -10,9 +10,9 @@ class TestCalculator(unittest.TestCase):
         pass
 
     def test_subtract(self): # 3 assertions
-        self.assertEqual(subtract(3, 2),1)
-        self.assertEqual(subtract(5, 3), 2)
-        self.assertAlmostEqual(subtract(6.7, 2.7), 4.0)
+        self.assertEqual(sub(3, 2),1)
+        self.assertEqual(sub(5, 3), 2)
+        self.assertAlmostEqual(sub(6.7, 2.7), 4.0)
         pass
     ##########################
 
