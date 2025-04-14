@@ -1,12 +1,16 @@
+#https://github.com/Alejandr0125/Lab10-AD-EL.git
+#Partner 1: Alejandro Delatorre
+#Partner 2: Ethan Laue
+
+
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-#https://github.com/Alejandr0125/Lab10-AD-EL.git
-#Partner 1: Alejandro Delatorre
-#Partner 2: Ethan Laue
+
 import math
 
 def square_root(a):
